@@ -34,6 +34,10 @@ module.exports = {
         test: /\.html$/,
         loader: 'html-loader'
       },
+      {
+        test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2|json|xml|ico)$/,
+        type: 'asset/resource'
+      }
     ]
   },
   resolve: {
